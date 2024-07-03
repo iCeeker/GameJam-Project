@@ -7,6 +7,7 @@ TagManager:
   - Grabable
   - EvaluationTrigger
   - Receiver
+  - AudioSource
   layers:
   - Default
   - TransparentFX
