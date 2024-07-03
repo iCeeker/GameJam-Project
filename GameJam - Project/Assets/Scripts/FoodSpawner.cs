@@ -22,7 +22,7 @@ public class FoodSpawner : Station
         {
             nextSpawnTime = Time.time + initialCooldown;
             int randomIndex = Random.Range(0, possibleFoodPrefabs.Length);
-            Create(possibleFoodPrefabs[randomIndex]);
+            Create(possibleFoodPrefabs[randomIndex], transform);
         }
     }
 

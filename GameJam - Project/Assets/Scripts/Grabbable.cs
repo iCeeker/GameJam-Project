@@ -26,7 +26,8 @@ public class Grabbable : MonoBehaviour
 
     public void Grab(Transform parent, Vector3 position)
     {
-        transform.parent = parent;
+        //transform.parent = parent;
+        transform.SetParent(parent, true);
         transform.localPosition = position;
         transform.rotation = transform.rotation;
         rb.useGravity = false;
@@ -41,9 +42,19 @@ public class Grabbable : MonoBehaviour
         {
             rb = GetComponent<Rigidbody>();
         }
-        transform.parent = null;
+        transform.SetParent(null, true);
+        //transform.parent = null;
         rb.AddRelativeForce(direction * bouncingStrength, ForceMode.Impulse);
         rb.useGravity = true;
         grabbed = false;       
+    }
+
+    public void Place(Transform targetArea)
+    {
+        transform.localPosition = targetArea.localPosition;
+        transform.rotation = targetArea.rotation;
+        transform.SetParent(null, true);
+        grabbed = false;
+        //transform.parent = null;
     }
 }

@@ -8,6 +8,7 @@ public class PlayerInteractionController : MonoBehaviour
     [SerializeField] float sphereCastRadius = 5;
     [SerializeField] float sphereCastYOffset = -1;
     [SerializeField] float sphereCastForwardOffset = 1;
+    [SerializeField] GameObject spawnPoint;
 
     Grabbable grabbedObject;
     Vector3 sphereCastOrigin;
@@ -39,16 +40,6 @@ public class PlayerInteractionController : MonoBehaviour
                 {
                     collider.GetComponent<EvaluationTrigger>().ToggleEvaluation();
                 }
-                else if (collider.CompareTag(grabbableTag))
-                {
-                    if (grabbedObject != null)
-                    {
-                        grabbedObject.Bounce(Vector3.forward);
-                    }
-
-                    grabbedObject = collider.GetComponent<Grabbable>();
-                    grabbedObject.Grab(transform, new Vector3(0, carryHeight, 0));
-                }
                 else if (collider.CompareTag(receiverTag))
                 {
                     if (grabbedObject != null)
@@ -57,10 +48,20 @@ public class PlayerInteractionController : MonoBehaviour
                         grabbedObject = null;
                     }
                 }
+                else if (collider.CompareTag(grabbableTag))
+                {
+                    if (grabbedObject != null)
+                    {
+                        grabbedObject.Place(spawnPoint.transform);
+                    }
+
+                    grabbedObject = collider.GetComponent<Grabbable>();
+                    grabbedObject.Grab(transform, new Vector3(0, carryHeight, 0));
+                }
             }
             else if (grabbedObject != null)
             {
-                grabbedObject.Bounce(Vector3.forward);
+                grabbedObject.Place(spawnPoint.transform);
                 grabbedObject = null;
             }
         }

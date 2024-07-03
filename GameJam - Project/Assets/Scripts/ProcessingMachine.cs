@@ -4,7 +4,7 @@ public class ProcessingMachine : Station
 {
     [SerializeField] FoodTypes desiredFoodType;
     [SerializeField] GameObject processedFoodPrefab;
-    [SerializeField] float processingTime;
+    [SerializeField] float processingTime = 3;
 
     bool isWorking;
     float finishedTime = float.MaxValue;
@@ -14,7 +14,7 @@ public class ProcessingMachine : Station
         if (finishedTime <= Time.time)
         {
             isWorking = false;
-            Create(processedFoodPrefab);
+            Create(processedFoodPrefab, transform);
             finishedTime = float.MaxValue;
         }
     }

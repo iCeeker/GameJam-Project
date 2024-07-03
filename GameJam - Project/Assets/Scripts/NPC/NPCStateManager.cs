@@ -6,6 +6,7 @@ public class NPCStateManager : MonoBehaviour
     public float runAwayDistance = 2;
     public float grabDistance = 1;
     public float carryHeight = 1.5F;
+    [SerializeField] GameObject spawnPoint;
     [SerializeField] float timeUntilRage = 10;
 
     public NPCBaseState currentState = null;
@@ -29,7 +30,6 @@ public class NPCStateManager : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         grabbable = GetComponent<Grabbable>();
 
-        agent.isStopped = true;
         SwitchState(idleState);
 
         SetRageTime();
@@ -47,7 +47,7 @@ public class NPCStateManager : MonoBehaviour
             SwitchState(grabbedState);
             if (grabbedObject != null)
             {
-                grabbedObject.Bounce(transform.forward);
+                grabbedObject.Place(spawnPoint.transform);
                 grabbedObject = null;
             }
         }
