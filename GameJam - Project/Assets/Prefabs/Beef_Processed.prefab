@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 339063595468433609}
   - component: {fileID: 5133003242168315692}
   - component: {fileID: 6921548208661386308}
-  - component: {fileID: 2783599724667726148}
   - component: {fileID: 222621664841809899}
+  - component: {fileID: 2783599724667726148}
+  - component: {fileID: 7374499446682237129}
   m_Layer: 0
   m_Name: Beef_Processed
   m_TagString: Grabable
@@ -107,20 +108,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2783599724667726148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837113958576364993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2bcba957e627c4da315e0a4769a539, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FoodType: 3
-  FoodTier: 1
 --- !u!54 &222621664841809899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -148,3 +135,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 2
+--- !u!114 &2783599724667726148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837113958576364993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2bcba957e627c4da315e0a4769a539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FoodType: 3
+  FoodTier: 1
+--- !u!114 &7374499446682237129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837113958576364993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a21a03353a4c84a931beeba9bed05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bouncingStrength: 50

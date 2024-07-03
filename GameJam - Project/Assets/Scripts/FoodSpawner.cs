@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class FoodSpawner : MonoBehaviour
+public class FoodSpawner : Station
 {
-    public GameObject spawnPoint;
-    public GameObject[] possibleFoodPrefabs;
-    public float InitialCooldown = 5;
+    [SerializeField] GameObject[] possibleFoodPrefabs;
+    [SerializeField] float initialCooldown = 5;
 
     float nextSpawnTime = float.MaxValue;
     bool isActive;
@@ -18,20 +17,24 @@ public class FoodSpawner : MonoBehaviour
     {
         if (nextSpawnTime <= Time.time && isActive)
         {
-            nextSpawnTime = Time.time + InitialCooldown;
+            nextSpawnTime = Time.time + initialCooldown;
             int randomIndex = Random.Range(0, possibleFoodPrefabs.Length);
-            Instantiate(possibleFoodPrefabs[randomIndex], spawnPoint.transform.position, possibleFoodPrefabs[randomIndex].transform.rotation);
+            Create(possibleFoodPrefabs[randomIndex]);
         }
     }
 
     public void Activate()
     {
         isActive = true;
-        nextSpawnTime = Time.time + InitialCooldown;
+        nextSpawnTime = Time.time + initialCooldown;
     }
 
     public void DeActivate()
     {
         isActive = false;
+    }
+
+    public override void Interact(GameObject objectForInteraction)
+    {
     }
 }

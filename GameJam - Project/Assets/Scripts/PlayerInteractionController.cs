@@ -1,60 +1,69 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class PlayerInteractionController : MonoBehaviour
 {
-    public KeyCode InteractionKey = KeyCode.LeftShift;
-    public float CarryHeight = 5;
-    public float ThrowingPower = 5;
+    [SerializeField] KeyCode InteractionKey = KeyCode.LeftShift;
+    [SerializeField] float carryHeight = 5;
+    [SerializeField] float sphereCastRadius = 5;
+    [SerializeField] float sphereCastYOffset = -1;
+    [SerializeField] float sphereCastForwardOffset = 1;
 
-    GameObject currentTarget;
-    GameObject grabbedObject;
+    Grabbable grabbedObject;
+    Vector3 sphereCastOrigin;
+
+    string evaluationTriggerTag = "EvaluationTrigger";
+    string grabbableTag = "Grabable";
+    string receiverTag = "Receiver";
 
     void Start()
     {
-        
+        sphereCastOrigin = transform.position;
+        sphereCastOrigin.y += sphereCastYOffset;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(InteractionKey))
         {
-            if (grabbedObject == null)
+            RaycastHit[] hits = Physics.SphereCastAll(sphereCastOrigin, sphereCastRadius, transform.forward, sphereCastForwardOffset);
+            if (hits.Length > 0)
             {
-                if (currentTarget != null)
+                Collider collider = hits.OrderBy(a => Vector3.Distance(transform.position, a.collider.transform.position)).First().collider;
+                if (collider.CompareTag(evaluationTriggerTag))
                 {
-                    grabbedObject = currentTarget;
-                    grabbedObject.transform.SetParent(transform, false);
-                    grabbedObject.transform.localPosition = new Vector3(0, CarryHeight, 0);
-                    grabbedObject.transform.rotation = transform.rotation;
-                    grabbedObject.GetComponent<Rigidbody>().useGravity = false;
+                    collider.GetComponent<EvaluationTrigger>().ToggleEvaluation();
+                }
+                else if (collider.CompareTag(grabbableTag))
+                {
+                    if (grabbedObject != null)
+                    {
+                        grabbedObject.Bounce(Vector3.forward);
+                    }
+
+                    grabbedObject = collider.GetComponent<Grabbable>();
+                    grabbedObject.Grab(transform, new Vector3(0, carryHeight, 0));
+                }
+                else if (collider.CompareTag(receiverTag))
+                {
+                    if (grabbedObject != null)
+                    {
+                        collider.GetComponent<Station>().Interact(grabbedObject.gameObject);
+                    }
                 }
             }
-            else
+            else if (grabbedObject != null)
             {
-                grabbedObject.transform.parent = null;
-                Rigidbody grabbedObjectRB = grabbedObject.GetComponent<Rigidbody>();
-                grabbedObjectRB.AddRelativeForce(Vector3.forward * ThrowingPower, ForceMode.Impulse);
-                grabbedObjectRB.useGravity = true;
+                grabbedObject.Bounce(Vector3.forward);
                 grabbedObject = null;
             }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnDrawGizmos()
     {
-        if (other.CompareTag("Grabable"))
-        {
-            currentTarget = other.gameObject;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject == currentTarget)
-        {
-            currentTarget = null;
-        }
+        sphereCastOrigin = transform.position;
+        sphereCastOrigin.y += sphereCastYOffset;
+        Gizmos.DrawWireSphere(sphereCastOrigin + transform.forward * sphereCastForwardOffset, sphereCastRadius);
     }
 }

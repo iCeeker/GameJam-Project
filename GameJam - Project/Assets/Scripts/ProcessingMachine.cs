@@ -1,45 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ProcessingMachine : MonoBehaviour
+public class ProcessingMachine : Station
 {
-    public FoodTypes DesiredFoodType;
-    public GameObject SpawningPoint;
-    public GameObject ProcessedFoodPrefab;
-    public float bounceBackStrength;
-    public float processingTime;
+    [SerializeField] FoodTypes desiredFoodType;
+    [SerializeField] GameObject processedFoodPrefab;
+    [SerializeField] float processingTime;
 
     bool isWorking;
     float finishedTime = float.MaxValue;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (finishedTime <= Time.time)
         {
             isWorking = false;
-            Instantiate(ProcessedFoodPrefab, SpawningPoint.transform.position, ProcessedFoodPrefab.transform.rotation);
-            //finishedTime = float.MaxValue;
+            Create(processedFoodPrefab);
+            finishedTime = float.MaxValue;
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public override void Interact(GameObject objectForInteraction)
     {
-        Food food = collision.gameObject.GetComponent<Food>();
-        if (isWorking || food == null || food.FoodType != DesiredFoodType /*|| food.FoodTier != FoodTiers.raw*/)
+        Food food = objectForInteraction.GetComponent<Food>();
+        if (isWorking || food == null || food.FoodType != desiredFoodType || food.FoodTier != FoodTiers.raw)
         {
-            collision.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * bounceBackStrength, ForceMode.Impulse);
+            Grabbable grabbable = objectForInteraction.GetComponent<Grabbable>();
+            Eject(grabbable);
         }
         else
         {
-            Destroy(collision.gameObject);
+            Destroy(objectForInteraction);
             finishedTime = Time.time + processingTime;
             isWorking = true;
         }

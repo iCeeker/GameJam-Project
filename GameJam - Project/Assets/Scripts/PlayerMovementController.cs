@@ -1,15 +1,10 @@
-using System;
 using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
-    public float RotationSpeed;
-    public float Speed;
+    [SerializeField] float RotationSpeed;
+    [SerializeField] float Speed;
 
-    void Start()
-    {
-
-    }
 
     void Update()
     {
