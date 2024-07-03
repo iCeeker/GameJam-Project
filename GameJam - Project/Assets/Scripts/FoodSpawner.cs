@@ -4,7 +4,9 @@ public class FoodSpawner : Station
 {
     [SerializeField] GameObject[] possibleFoodPrefabs;
     [SerializeField] float initialCooldown = 5;
+    [SerializeField] int objectCap = 15;
 
+    string grabbableTag = "Grabable";
     float nextSpawnTime = float.MaxValue;
     bool isActive;
 
@@ -15,7 +17,8 @@ public class FoodSpawner : Station
 
     void Update()
     {
-        if (nextSpawnTime <= Time.time && isActive)
+        GameObject[] allObjects = GameObject.FindGameObjectsWithTag(grabbableTag);
+        if (nextSpawnTime <= Time.time && isActive && allObjects.Length <= objectCap)
         {
             nextSpawnTime = Time.time + initialCooldown;
             int randomIndex = Random.Range(0, possibleFoodPrefabs.Length);
