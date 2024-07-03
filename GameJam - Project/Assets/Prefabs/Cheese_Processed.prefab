@@ -149,6 +149,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodType: 2
   FoodTier: 1
+  npcPrefab: {fileID: 3339554711282136045, guid: 480fd62474813224284a28a375f19daa,
+    type: 3}
+  timeUntilExpiration: 10
 --- !u!114 &-5286488687280416556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +165,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bouncingStrength: 50
+  grabbed: 0

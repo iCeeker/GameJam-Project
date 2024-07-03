@@ -27,6 +27,11 @@ public class PlayerInteractionController : MonoBehaviour
         if (Input.GetKeyDown(InteractionKey))
         {
             RaycastHit[] hits = Physics.SphereCastAll(sphereCastOrigin, sphereCastRadius, transform.forward, sphereCastForwardOffset);
+            if (grabbedObject != null)
+            {
+                hits = hits.Where(a => a.collider.gameObject != grabbedObject.gameObject).ToArray();
+            }
+
             if (hits.Length > 0)
             {
                 Collider collider = hits.OrderBy(a => Vector3.Distance(transform.position, a.collider.transform.position)).First().collider;
@@ -49,6 +54,7 @@ public class PlayerInteractionController : MonoBehaviour
                     if (grabbedObject != null)
                     {
                         collider.GetComponent<Station>().Interact(grabbedObject.gameObject);
+                        grabbedObject = null;
                     }
                 }
             }

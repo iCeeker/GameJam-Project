@@ -4,9 +4,11 @@ public class Grabbable : MonoBehaviour
 {
     [SerializeField] float bouncingStrength;
 
+    [HideInInspector] public bool grabbed;
+
     Rigidbody rb;
-    bool grabbed;
     float initialHeight;
+    Transform grabber;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class Grabbable : MonoBehaviour
         if (grabbed)
         {
             transform.localPosition = new Vector3(0, initialHeight, 0);
+            transform.rotation = grabber.rotation;
         }
     }
 
@@ -29,6 +32,7 @@ public class Grabbable : MonoBehaviour
         rb.useGravity = false;
         grabbed = true;
         initialHeight = transform.localPosition.y;
+        grabber = parent;
     }
 
     public void Bounce(Vector3 direction)
