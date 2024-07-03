@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Leveldesign Max.unity
     guid: f92ec716602957848b71a37ba2bcd16d
+  - enabled: 1
+    path: Assets/Scenes/UI Menus/MainMenu.unity
+    guid: dd45fd0ae279f524dbee5db3df6a6997
+  - enabled: 1
+    path: Assets/Scenes/UI Menus/ControlMenu.unity
+    guid: 2e2698b0fe8d643488673c6310615dfe
+  - enabled: 1
+    path: Assets/Scenes/UI Menus/SettingsMenu.unity
+    guid: 41f421862c511234a8d613f3d2a248b4
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: a91bc683e8ad68741aeb39ced42c131a
   m_configObjects: {}
