@@ -14,19 +14,19 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
+  m_Fog: 1
+  m_FogColor: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 1}
+  m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 0
-  m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_LinearFogEnd: 668.89
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 74efd1b12ef89f947b6786ce92f89779, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1051576}
   - component: {fileID: 1051575}
   - component: {fileID: 1051574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 25083985}
   - component: {fileID: 25083984}
   - component: {fileID: 25083983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 26160768}
   - component: {fileID: 26160767}
   - component: {fileID: 26160766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 29060433}
   - component: {fileID: 29060432}
   - component: {fileID: 29060431}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 38343020}
   - component: {fileID: 38343019}
   - component: {fileID: 38343018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 40882074}
   - component: {fileID: 40882073}
   - component: {fileID: 40882072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 44301216}
   - component: {fileID: 44301215}
   - component: {fileID: 44301214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 52516084}
   - component: {fileID: 52516083}
   - component: {fileID: 52516082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,7 +1185,7 @@ GameObject:
   - component: {fileID: 52954418}
   - component: {fileID: 52954417}
   - component: {fileID: 52954416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,124 +1565,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11f387c36b763964bb469baa2470e871, type: 3}
---- !u!1 &107042280
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 107042281}
-  - component: {fileID: 107042283}
-  - component: {fileID: 107042282}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &107042281
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107042280}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.63887584, y: -0.056991488, z: 0.30304652, w: 0.7048067}
-  m_LocalPosition: {x: -14.031001, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002825, y: 0.99970835, z: 1.0001149}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 153233918}
-  m_LocalEulerAnglesHint: {x: 69.246, y: 60, z: 90}
---- !u!114 &107042282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107042280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
---- !u!108 &107042283
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107042280}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 45.71
-  m_Range: 300
-  m_SpotAngle: 179
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &107671325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1577,7 @@ GameObject:
   - component: {fileID: 107671329}
   - component: {fileID: 107671328}
   - component: {fileID: 107671327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1767,7 @@ GameObject:
   - component: {fileID: 127513085}
   - component: {fileID: 127513084}
   - component: {fileID: 127513083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1992,7 +1874,7 @@ GameObject:
   - component: {fileID: 142469586}
   - component: {fileID: 142469585}
   - component: {fileID: 142469584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2099,7 +1981,7 @@ GameObject:
   - component: {fileID: 146030434}
   - component: {fileID: 146030433}
   - component: {fileID: 146030432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2088,7 @@ GameObject:
   - component: {fileID: 147665607}
   - component: {fileID: 147665606}
   - component: {fileID: 147665605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2313,7 +2195,7 @@ GameObject:
   - component: {fileID: 149589858}
   - component: {fileID: 149589857}
   - component: {fileID: 149589856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,8 +2319,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 107042281}
   - {fileID: 513079815}
+  - {fileID: 2099072087}
   - {fileID: 521849492}
   - {fileID: 1007145013}
   m_Father: {fileID: 0}
@@ -2581,7 +2463,7 @@ GameObject:
   - component: {fileID: 166456775}
   - component: {fileID: 166456774}
   - component: {fileID: 166456773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2688,7 +2570,7 @@ GameObject:
   - component: {fileID: 166949131}
   - component: {fileID: 166949130}
   - component: {fileID: 166949129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2795,7 +2677,7 @@ GameObject:
   - component: {fileID: 181363030}
   - component: {fileID: 181363029}
   - component: {fileID: 181363028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2981,7 +2863,7 @@ GameObject:
   - component: {fileID: 195890934}
   - component: {fileID: 195890933}
   - component: {fileID: 195890932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3088,7 +2970,7 @@ GameObject:
   - component: {fileID: 198189074}
   - component: {fileID: 198189073}
   - component: {fileID: 198189072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3195,7 +3077,7 @@ GameObject:
   - component: {fileID: 218451283}
   - component: {fileID: 218451282}
   - component: {fileID: 218451281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3302,7 +3184,7 @@ GameObject:
   - component: {fileID: 220435645}
   - component: {fileID: 220435644}
   - component: {fileID: 220435643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3445,7 +3327,7 @@ GameObject:
   - component: {fileID: 243016536}
   - component: {fileID: 243016535}
   - component: {fileID: 243016534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3552,7 +3434,7 @@ GameObject:
   - component: {fileID: 243354981}
   - component: {fileID: 243354980}
   - component: {fileID: 243354979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3659,7 +3541,7 @@ GameObject:
   - component: {fileID: 250117267}
   - component: {fileID: 250117266}
   - component: {fileID: 250117265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3804,7 +3686,7 @@ GameObject:
   - component: {fileID: 254388233}
   - component: {fileID: 254388232}
   - component: {fileID: 254388231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3911,7 +3793,7 @@ GameObject:
   - component: {fileID: 264535015}
   - component: {fileID: 264535014}
   - component: {fileID: 264535013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4086,7 +3968,7 @@ Camera:
   m_GameObject: {fileID: 268229960}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -4155,7 +4037,7 @@ GameObject:
   - component: {fileID: 291407087}
   - component: {fileID: 291407086}
   - component: {fileID: 291407085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4262,7 +4144,7 @@ GameObject:
   - component: {fileID: 314082615}
   - component: {fileID: 314082614}
   - component: {fileID: 314082613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4369,7 +4251,7 @@ GameObject:
   - component: {fileID: 328190714}
   - component: {fileID: 328190713}
   - component: {fileID: 328190712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4476,7 +4358,7 @@ GameObject:
   - component: {fileID: 329255222}
   - component: {fileID: 329255221}
   - component: {fileID: 329255220}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4583,7 +4465,7 @@ GameObject:
   - component: {fileID: 341863999}
   - component: {fileID: 341863998}
   - component: {fileID: 341863997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4728,7 +4610,7 @@ GameObject:
   - component: {fileID: 346617124}
   - component: {fileID: 346617123}
   - component: {fileID: 346617122}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4823,6 +4705,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346617120}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &351229916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1713431489254066576, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_Name
+      value: Publikum
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.56806
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.472596
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25882143
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9659252
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057164750219203370, guid: 499c6e30becc0f64d9375905d029f4e9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 499c6e30becc0f64d9375905d029f4e9, type: 3}
 --- !u!1 &351365014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4832,7 +4782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 351365015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4948,7 +4898,7 @@ GameObject:
   - component: {fileID: 360568337}
   - component: {fileID: 360568336}
   - component: {fileID: 360568335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5055,7 +5005,7 @@ GameObject:
   - component: {fileID: 361891825}
   - component: {fileID: 361891824}
   - component: {fileID: 361891823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5162,7 +5112,7 @@ GameObject:
   - component: {fileID: 368825876}
   - component: {fileID: 368825875}
   - component: {fileID: 368825874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5269,7 +5219,7 @@ GameObject:
   - component: {fileID: 380159806}
   - component: {fileID: 380159805}
   - component: {fileID: 380159804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5376,7 +5326,7 @@ GameObject:
   - component: {fileID: 387466107}
   - component: {fileID: 387466106}
   - component: {fileID: 387466105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5483,7 +5433,7 @@ GameObject:
   - component: {fileID: 394030089}
   - component: {fileID: 394030088}
   - component: {fileID: 394030087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,124 +5528,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394030085}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &396792596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 396792597}
-  - component: {fileID: 396792599}
-  - component: {fileID: 396792598}
-  m_Layer: 0
-  m_Name: Spot Light (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &396792597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396792596}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.3378534, y: -0.7405125, z: 0.5285339, w: 0.24113972}
-  m_LocalPosition: {x: 14.048071, y: 0, z: -0.0011138916}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 906622822}
-  m_LocalEulerAnglesHint: {x: 71.034, y: -180, z: -49.049}
---- !u!114 &396792598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396792596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
---- !u!108 &396792599
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396792596}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 45.71
-  m_Range: 300
-  m_SpotAngle: 179
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &419178011
 GameObject:
   m_ObjectHideFlags: 0
@@ -5708,7 +5540,7 @@ GameObject:
   - component: {fileID: 419178015}
   - component: {fileID: 419178014}
   - component: {fileID: 419178013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5993,7 +5825,7 @@ GameObject:
   - component: {fileID: 437950179}
   - component: {fileID: 437950178}
   - component: {fileID: 437950177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6100,7 +5932,7 @@ GameObject:
   - component: {fileID: 438914420}
   - component: {fileID: 438914419}
   - component: {fileID: 438914418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6207,7 +6039,7 @@ GameObject:
   - component: {fileID: 440425067}
   - component: {fileID: 440425066}
   - component: {fileID: 440425065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6314,7 +6146,7 @@ GameObject:
   - component: {fileID: 442797259}
   - component: {fileID: 442797258}
   - component: {fileID: 442797257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6421,7 +6253,7 @@ GameObject:
   - component: {fileID: 445828098}
   - component: {fileID: 445828097}
   - component: {fileID: 445828096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6616,7 +6448,7 @@ GameObject:
   - component: {fileID: 479047374}
   - component: {fileID: 479047373}
   - component: {fileID: 479047372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6711,6 +6543,94 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479047370}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &488066209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.64
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9884644
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1514535
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 17.422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1 &489248465
 GameObject:
   m_ObjectHideFlags: 0
@@ -6912,7 +6832,7 @@ GameObject:
   - component: {fileID: 492926405}
   - component: {fileID: 492926404}
   - component: {fileID: 492926403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7121,13 +7041,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513079814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3378534, y: -0.7405125, z: 0.5285339, w: 0.24113972}
-  m_LocalPosition: {x: -0, y: 0, z: 19.036}
+  m_LocalRotation: {x: 0.5880926, y: -0.6241054, z: 0.18878819, w: 0.47853804}
+  m_LocalPosition: {x: 0.75, y: 0, z: 20.786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 153233918}
-  m_LocalEulerAnglesHint: {x: 71.034, y: -180, z: -49.049}
+  m_LocalEulerAnglesHint: {x: 52.987, y: -141.438, z: -66.815}
 --- !u!114 &513079816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7200,7 +7120,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -7225,7 +7145,7 @@ GameObject:
   - component: {fileID: 518606804}
   - component: {fileID: 518606803}
   - component: {fileID: 518606802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7346,13 +7266,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521849491}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.805918, y: -0, z: -0, w: 0.5920272}
-  m_LocalPosition: {x: -14.031001, y: 0, z: 19.036}
+  m_LocalRotation: {x: 0.8841329, y: 0, z: 0, w: 0.46723554}
+  m_LocalPosition: {x: -14.781002, y: 0, z: 21.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 153233918}
-  m_LocalEulerAnglesHint: {x: 107.39801, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 124.29, y: 0, z: 0}
 --- !u!114 &521849493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7425,7 +7345,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -7450,7 +7370,7 @@ GameObject:
   - component: {fileID: 537401142}
   - component: {fileID: 537401141}
   - component: {fileID: 537401140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7557,7 +7477,7 @@ GameObject:
   - component: {fileID: 541749081}
   - component: {fileID: 541749080}
   - component: {fileID: 541749079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7696,7 +7616,7 @@ GameObject:
   - component: {fileID: 550664374}
   - component: {fileID: 550664373}
   - component: {fileID: 550664372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7882,7 +7802,7 @@ GameObject:
   - component: {fileID: 559655417}
   - component: {fileID: 559655416}
   - component: {fileID: 559655415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8003,13 +7923,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573091866}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.805918, y: -0, z: -0, w: 0.5920272}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.7351097, y: -0.16476698, z: 0.5152182, w: 0.4086757}
+  m_LocalPosition: {x: -1.62, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 906622822}
-  m_LocalEulerAnglesHint: {x: 107.39801, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 129.59, y: -77.76401, z: -16.299988}
 --- !u!114 &573091868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8082,7 +8002,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -8107,7 +8027,7 @@ GameObject:
   - component: {fileID: 575909437}
   - component: {fileID: 575909436}
   - component: {fileID: 575909435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8297,7 +8217,7 @@ GameObject:
   - component: {fileID: 584256666}
   - component: {fileID: 584256665}
   - component: {fileID: 584256664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8404,7 +8324,7 @@ GameObject:
   - component: {fileID: 599932826}
   - component: {fileID: 599932825}
   - component: {fileID: 599932824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8511,7 +8431,7 @@ GameObject:
   - component: {fileID: 601601083}
   - component: {fileID: 601601082}
   - component: {fileID: 601601081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8618,7 +8538,7 @@ GameObject:
   - component: {fileID: 640811194}
   - component: {fileID: 640811193}
   - component: {fileID: 640811192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8887,7 +8807,7 @@ GameObject:
   - component: {fileID: 653606924}
   - component: {fileID: 653606923}
   - component: {fileID: 653606922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9073,7 +8993,7 @@ GameObject:
   - component: {fileID: 669441316}
   - component: {fileID: 669441315}
   - component: {fileID: 669441314}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9180,7 +9100,7 @@ GameObject:
   - component: {fileID: 675756530}
   - component: {fileID: 675756529}
   - component: {fileID: 675756528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9284,7 +9204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 677054200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9488,7 +9408,7 @@ GameObject:
   - component: {fileID: 719165268}
   - component: {fileID: 719165267}
   - component: {fileID: 719165266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9595,7 +9515,7 @@ GameObject:
   - component: {fileID: 720630457}
   - component: {fileID: 720630456}
   - component: {fileID: 720630455}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9702,7 +9622,7 @@ GameObject:
   - component: {fileID: 722665732}
   - component: {fileID: 722665731}
   - component: {fileID: 722665730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9897,7 +9817,7 @@ GameObject:
   - component: {fileID: 738448112}
   - component: {fileID: 738448111}
   - component: {fileID: 738448110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10003,7 +9923,7 @@ GameObject:
   - component: {fileID: 742585529}
   - component: {fileID: 742585528}
   - component: {fileID: 742585527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10110,7 +10030,7 @@ GameObject:
   - component: {fileID: 743317886}
   - component: {fileID: 743317885}
   - component: {fileID: 743317884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10329,7 +10249,7 @@ GameObject:
   - component: {fileID: 758905817}
   - component: {fileID: 758905816}
   - component: {fileID: 758905815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10436,7 +10356,7 @@ GameObject:
   - component: {fileID: 760209698}
   - component: {fileID: 760209697}
   - component: {fileID: 760209696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10543,7 +10463,7 @@ GameObject:
   - component: {fileID: 760998338}
   - component: {fileID: 760998337}
   - component: {fileID: 760998336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10834,7 +10754,7 @@ GameObject:
   - component: {fileID: 775354942}
   - component: {fileID: 775354941}
   - component: {fileID: 775354940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10941,7 +10861,7 @@ GameObject:
   - component: {fileID: 780278394}
   - component: {fileID: 780278393}
   - component: {fileID: 780278392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11048,7 +10968,7 @@ GameObject:
   - component: {fileID: 784133750}
   - component: {fileID: 784133749}
   - component: {fileID: 784133748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11155,7 +11075,7 @@ GameObject:
   - component: {fileID: 785670667}
   - component: {fileID: 785670666}
   - component: {fileID: 785670665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11262,7 +11182,7 @@ GameObject:
   - component: {fileID: 789606200}
   - component: {fileID: 789606199}
   - component: {fileID: 789606198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11368,7 +11288,7 @@ GameObject:
   - component: {fileID: 791837567}
   - component: {fileID: 791837566}
   - component: {fileID: 791837565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11474,7 +11394,7 @@ GameObject:
   - component: {fileID: 800643148}
   - component: {fileID: 800643147}
   - component: {fileID: 800643146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11646,7 +11566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 813320312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11733,7 +11653,7 @@ GameObject:
   - component: {fileID: 813567158}
   - component: {fileID: 813567157}
   - component: {fileID: 813567156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11919,7 +11839,7 @@ GameObject:
   - component: {fileID: 822508960}
   - component: {fileID: 822508959}
   - component: {fileID: 822508958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12114,7 +12034,7 @@ GameObject:
   - component: {fileID: 832260935}
   - component: {fileID: 832260934}
   - component: {fileID: 832260933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12221,7 +12141,7 @@ GameObject:
   - component: {fileID: 835959061}
   - component: {fileID: 835959060}
   - component: {fileID: 835959059}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12316,6 +12236,94 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835959057}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &837809178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9716974
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.23622924
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -27.328
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1001 &842822504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12416,7 +12424,7 @@ GameObject:
   - component: {fileID: 848443688}
   - component: {fileID: 848443687}
   - component: {fileID: 848443686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12523,7 +12531,7 @@ GameObject:
   - component: {fileID: 851522879}
   - component: {fileID: 851522878}
   - component: {fileID: 851522877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12630,7 +12638,7 @@ GameObject:
   - component: {fileID: 851982496}
   - component: {fileID: 851982495}
   - component: {fileID: 851982494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12737,7 +12745,7 @@ GameObject:
   - component: {fileID: 863501058}
   - component: {fileID: 863501057}
   - component: {fileID: 863501056}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12844,7 +12852,7 @@ GameObject:
   - component: {fileID: 870528346}
   - component: {fileID: 870528345}
   - component: {fileID: 870528344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12951,7 +12959,7 @@ GameObject:
   - component: {fileID: 892196967}
   - component: {fileID: 892196966}
   - component: {fileID: 892196965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13058,7 +13066,7 @@ GameObject:
   - component: {fileID: 893700106}
   - component: {fileID: 893700105}
   - component: {fileID: 893700104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13182,8 +13190,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1295734666}
   - {fileID: 1861090395}
-  - {fileID: 396792597}
   - {fileID: 932204566}
   - {fileID: 573091867}
   m_Father: {fileID: 0}
@@ -13279,7 +13287,7 @@ GameObject:
   - component: {fileID: 911179305}
   - component: {fileID: 911179304}
   - component: {fileID: 911179303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13465,7 +13473,7 @@ GameObject:
   - component: {fileID: 922898011}
   - component: {fileID: 922898010}
   - component: {fileID: 922898009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13665,7 +13673,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -13690,7 +13698,7 @@ GameObject:
   - component: {fileID: 938452517}
   - component: {fileID: 938452516}
   - component: {fileID: 938452515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13967,124 +13975,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 955882253}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &956982451
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 956982454}
-  - component: {fileID: 956982453}
-  - component: {fileID: 956982452}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &956982452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956982451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
---- !u!108 &956982453
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956982451}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 17.02
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &956982454
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956982451}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.904, y: 2.026, z: 5.99}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &981703207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14176,7 +14066,7 @@ GameObject:
   - component: {fileID: 987294157}
   - component: {fileID: 987294156}
   - component: {fileID: 987294155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14362,7 +14252,7 @@ GameObject:
   - component: {fileID: 1003386753}
   - component: {fileID: 1003386752}
   - component: {fileID: 1003386751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14646,7 +14536,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -14671,7 +14561,7 @@ GameObject:
   - component: {fileID: 1022588796}
   - component: {fileID: 1022588795}
   - component: {fileID: 1022588794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14862,7 +14752,7 @@ GameObject:
   - component: {fileID: 1036574023}
   - component: {fileID: 1036574022}
   - component: {fileID: 1036574021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14969,7 +14859,7 @@ GameObject:
   - component: {fileID: 1040332068}
   - component: {fileID: 1040332067}
   - component: {fileID: 1040332066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15076,7 +14966,7 @@ GameObject:
   - component: {fileID: 1044375220}
   - component: {fileID: 1044375219}
   - component: {fileID: 1044375218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15183,7 +15073,7 @@ GameObject:
   - component: {fileID: 1048814908}
   - component: {fileID: 1048814907}
   - component: {fileID: 1048814906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15290,7 +15180,7 @@ GameObject:
   - component: {fileID: 1050971192}
   - component: {fileID: 1050971191}
   - component: {fileID: 1050971190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15464,99 +15354,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1060057698}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1064508870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1737211277}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1064508871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064508870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32d162dda2b2ff84b813bde1f3318f55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationSpeed: 50
-  Speed: 8
---- !u!114 &1064508872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064508870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d42a2ef57197986409397f460a16767f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InteractionKey: 32
-  carryHeight: 5
-  sphereCastRadius: 5
-  sphereCastYOffset: -1
-  sphereCastForwardOffset: 1
---- !u!4 &1064508875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1737211277}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &1064508876
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064508870}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.27701855
-  m_Height: 1.371446
-  m_Direction: 1
-  m_Center: {x: 0.029022817, y: 0.68, z: 0.013093995}
---- !u!54 &1064508877
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064508870}
-  serializedVersion: 4
-  m_Mass: 500
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1066739368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15663,7 +15460,7 @@ GameObject:
   - component: {fileID: 1071362182}
   - component: {fileID: 1071362181}
   - component: {fileID: 1071362180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15770,7 +15567,7 @@ GameObject:
   - component: {fileID: 1084397863}
   - component: {fileID: 1084397862}
   - component: {fileID: 1084397861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15877,7 +15674,7 @@ GameObject:
   - component: {fileID: 1089187758}
   - component: {fileID: 1089187757}
   - component: {fileID: 1089187756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16078,7 +15875,7 @@ GameObject:
   - component: {fileID: 1108060803}
   - component: {fileID: 1108060802}
   - component: {fileID: 1108060801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackgroundPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16184,7 +15981,7 @@ GameObject:
   - component: {fileID: 1108512264}
   - component: {fileID: 1108512263}
   - component: {fileID: 1108512262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16291,7 +16088,7 @@ GameObject:
   - component: {fileID: 1109766960}
   - component: {fileID: 1109766959}
   - component: {fileID: 1109766958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16398,7 +16195,7 @@ GameObject:
   - component: {fileID: 1110334267}
   - component: {fileID: 1110334266}
   - component: {fileID: 1110334265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16584,7 +16381,7 @@ GameObject:
   - component: {fileID: 1120254374}
   - component: {fileID: 1120254373}
   - component: {fileID: 1120254372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16691,7 +16488,7 @@ GameObject:
   - component: {fileID: 1123619149}
   - component: {fileID: 1123619148}
   - component: {fileID: 1123619147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16798,7 +16595,7 @@ GameObject:
   - component: {fileID: 1126504787}
   - component: {fileID: 1126504786}
   - component: {fileID: 1126504785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16905,7 +16702,7 @@ GameObject:
   - component: {fileID: 1132487773}
   - component: {fileID: 1132487772}
   - component: {fileID: 1132487771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17091,7 +16888,7 @@ GameObject:
   - component: {fileID: 1136111760}
   - component: {fileID: 1136111759}
   - component: {fileID: 1136111758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17198,7 +16995,7 @@ GameObject:
   - component: {fileID: 1142615128}
   - component: {fileID: 1142615127}
   - component: {fileID: 1142615126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17305,7 +17102,7 @@ GameObject:
   - component: {fileID: 1145235359}
   - component: {fileID: 1145235358}
   - component: {fileID: 1145235357}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17611,7 +17408,7 @@ GameObject:
   - component: {fileID: 1159100857}
   - component: {fileID: 1159100856}
   - component: {fileID: 1159100855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17718,7 +17515,7 @@ GameObject:
   - component: {fileID: 1167575057}
   - component: {fileID: 1167575056}
   - component: {fileID: 1167575055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17825,7 +17622,7 @@ GameObject:
   - component: {fileID: 1173748185}
   - component: {fileID: 1173748184}
   - component: {fileID: 1173748183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18037,7 +17834,6 @@ Transform:
   - {fileID: 1514688274}
   - {fileID: 743401343}
   - {fileID: 268229964}
-  - {fileID: 1064508875}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1235299037
@@ -18126,7 +17922,7 @@ GameObject:
   - component: {fileID: 1237329431}
   - component: {fileID: 1237329430}
   - component: {fileID: 1237329429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18233,7 +18029,7 @@ GameObject:
   - component: {fileID: 1245302745}
   - component: {fileID: 1245302744}
   - component: {fileID: 1245302743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18340,7 +18136,7 @@ GameObject:
   - component: {fileID: 1258214488}
   - component: {fileID: 1258214487}
   - component: {fileID: 1258214486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18447,7 +18243,7 @@ GameObject:
   - component: {fileID: 1263272714}
   - component: {fileID: 1263272713}
   - component: {fileID: 1263272712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18554,7 +18350,7 @@ GameObject:
   - component: {fileID: 1272099780}
   - component: {fileID: 1272099779}
   - component: {fileID: 1272099778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18661,7 +18457,7 @@ GameObject:
   - component: {fileID: 1276701735}
   - component: {fileID: 1276701734}
   - component: {fileID: 1276701733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18914,6 +18710,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1292984768}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1295734665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1295734666}
+  - component: {fileID: 1295734668}
+  - component: {fileID: 1295734667}
+  m_Layer: 0
+  m_Name: Spot Light (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1295734666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295734665}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.08511931, y: 0.7019637, z: -0.6117608, w: 0.3546131}
+  m_LocalPosition: {x: -1.7, y: 0.010000229, z: -10.265999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 906622822}
+  m_LocalEulerAnglesHint: {x: 52.987, y: 90, z: -66.815}
+--- !u!114 &1295734667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295734665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1295734668
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295734665}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 45.71
+  m_Range: 300
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 55
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1299784521
 GameObject:
   m_ObjectHideFlags: 0
@@ -18926,7 +18840,7 @@ GameObject:
   - component: {fileID: 1299784525}
   - component: {fileID: 1299784524}
   - component: {fileID: 1299784523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19033,7 +18947,7 @@ GameObject:
   - component: {fileID: 1307691382}
   - component: {fileID: 1307691381}
   - component: {fileID: 1307691380}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19140,7 +19054,7 @@ GameObject:
   - component: {fileID: 1311320334}
   - component: {fileID: 1311320333}
   - component: {fileID: 1311320332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19247,7 +19161,7 @@ GameObject:
   - component: {fileID: 1312681253}
   - component: {fileID: 1312681252}
   - component: {fileID: 1312681251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19471,7 +19385,7 @@ GameObject:
   - component: {fileID: 1330935936}
   - component: {fileID: 1330935935}
   - component: {fileID: 1330935934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19578,7 +19492,7 @@ GameObject:
   - component: {fileID: 1334591570}
   - component: {fileID: 1334591569}
   - component: {fileID: 1334591568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19817,7 +19731,7 @@ GameObject:
   - component: {fileID: 1356245273}
   - component: {fileID: 1356245272}
   - component: {fileID: 1356245271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19921,7 +19835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1358215713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19959,7 +19873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1365110343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Crowd (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20198,6 +20112,94 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1389539604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1402355181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82489246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5652897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 68.845
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1 &1405372574
 GameObject:
   m_ObjectHideFlags: 0
@@ -20210,7 +20212,7 @@ GameObject:
   - component: {fileID: 1405372578}
   - component: {fileID: 1405372577}
   - component: {fileID: 1405372576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20317,7 +20319,7 @@ GameObject:
   - component: {fileID: 1405835256}
   - component: {fileID: 1405835255}
   - component: {fileID: 1405835254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20424,7 +20426,7 @@ GameObject:
   - component: {fileID: 1418367932}
   - component: {fileID: 1418367931}
   - component: {fileID: 1418367930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20531,7 +20533,7 @@ GameObject:
   - component: {fileID: 1423810428}
   - component: {fileID: 1423810427}
   - component: {fileID: 1423810426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20638,7 +20640,7 @@ GameObject:
   - component: {fileID: 1437068668}
   - component: {fileID: 1437068667}
   - component: {fileID: 1437068666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20745,7 +20747,7 @@ GameObject:
   - component: {fileID: 1440510656}
   - component: {fileID: 1440510655}
   - component: {fileID: 1440510654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20978,7 +20980,7 @@ GameObject:
   - component: {fileID: 1451933799}
   - component: {fileID: 1451933798}
   - component: {fileID: 1451933797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21085,7 +21087,7 @@ GameObject:
   - component: {fileID: 1456783340}
   - component: {fileID: 1456783339}
   - component: {fileID: 1456783338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21397,7 +21399,7 @@ GameObject:
   - component: {fileID: 1482738977}
   - component: {fileID: 1482738976}
   - component: {fileID: 1482738975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21604,7 +21606,7 @@ GameObject:
   - component: {fileID: 1492592659}
   - component: {fileID: 1492592658}
   - component: {fileID: 1492592657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21813,7 +21815,7 @@ GameObject:
   - component: {fileID: 1544000315}
   - component: {fileID: 1544000314}
   - component: {fileID: 1544000313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21920,7 +21922,7 @@ GameObject:
   - component: {fileID: 1544842857}
   - component: {fileID: 1544842856}
   - component: {fileID: 1544842855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22224,7 +22226,7 @@ GameObject:
   - component: {fileID: 1558813117}
   - component: {fileID: 1558813116}
   - component: {fileID: 1558813115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22415,7 +22417,7 @@ GameObject:
   - component: {fileID: 1584636522}
   - component: {fileID: 1584636521}
   - component: {fileID: 1584636520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22601,7 +22603,7 @@ GameObject:
   - component: {fileID: 1591859899}
   - component: {fileID: 1591859898}
   - component: {fileID: 1591859897}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22708,7 +22710,7 @@ GameObject:
   - component: {fileID: 1599421970}
   - component: {fileID: 1599421969}
   - component: {fileID: 1599421968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22906,7 +22908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1601155095}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22946,7 +22948,7 @@ GameObject:
   - component: {fileID: 1603275492}
   - component: {fileID: 1603275491}
   - component: {fileID: 1603275490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23053,7 +23055,7 @@ GameObject:
   - component: {fileID: 1604613555}
   - component: {fileID: 1604613554}
   - component: {fileID: 1604613553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23160,7 +23162,7 @@ GameObject:
   - component: {fileID: 1613731951}
   - component: {fileID: 1613731950}
   - component: {fileID: 1613731949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23264,7 +23266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1618667258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Crowd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23340,7 +23342,7 @@ GameObject:
   - component: {fileID: 1620973745}
   - component: {fileID: 1620973744}
   - component: {fileID: 1620973743}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23447,7 +23449,7 @@ GameObject:
   - component: {fileID: 1622986985}
   - component: {fileID: 1622986984}
   - component: {fileID: 1622986983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23656,6 +23658,94 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1636590678}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1642335667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.46
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1 &1643629039
 GameObject:
   m_ObjectHideFlags: 0
@@ -23880,7 +23970,7 @@ GameObject:
   - component: {fileID: 1663799175}
   - component: {fileID: 1663799174}
   - component: {fileID: 1663799173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23987,7 +24077,7 @@ GameObject:
   - component: {fileID: 1669248062}
   - component: {fileID: 1669248061}
   - component: {fileID: 1669248060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24094,7 +24184,7 @@ GameObject:
   - component: {fileID: 1680685010}
   - component: {fileID: 1680685009}
   - component: {fileID: 1680685008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24201,7 +24291,7 @@ GameObject:
   - component: {fileID: 1690647340}
   - component: {fileID: 1690647339}
   - component: {fileID: 1690647338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24308,7 +24398,7 @@ GameObject:
   - component: {fileID: 1691509599}
   - component: {fileID: 1691509598}
   - component: {fileID: 1691509597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24415,7 +24505,7 @@ GameObject:
   - component: {fileID: 1692562777}
   - component: {fileID: 1692562776}
   - component: {fileID: 1692562775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24522,7 +24612,7 @@ GameObject:
   - component: {fileID: 1712478853}
   - component: {fileID: 1712478852}
   - component: {fileID: 1712478851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24629,7 +24719,7 @@ GameObject:
   - component: {fileID: 1718376889}
   - component: {fileID: 1718376888}
   - component: {fileID: 1718376887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25012,115 +25102,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1732573096}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1737211277
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1206599049}
-    m_Modifications:
-    - target: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5379999
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4551681
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.493069
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -21.171
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.15035
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 780769494849532526, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6644486671650416660, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 75f687d5a5bc14f409a82c9d532ba626, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1064508872}
-    - targetCorrespondingSourceObject: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1064508871}
-    - targetCorrespondingSourceObject: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1064508876}
-    - targetCorrespondingSourceObject: {fileID: 116540624500943060, guid: 3cc5e5e6409ecf541930d5377869c8f0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1064508877}
-  m_SourcePrefab: {fileID: 100100000, guid: 3cc5e5e6409ecf541930d5377869c8f0, type: 3}
 --- !u!1 &1741366335
 GameObject:
   m_ObjectHideFlags: 0
@@ -25133,7 +25114,7 @@ GameObject:
   - component: {fileID: 1741366339}
   - component: {fileID: 1741366338}
   - component: {fileID: 1741366337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25425,7 +25406,7 @@ GameObject:
   - component: {fileID: 1743793613}
   - component: {fileID: 1743793612}
   - component: {fileID: 1743793611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25532,7 +25513,7 @@ GameObject:
   - component: {fileID: 1746378687}
   - component: {fileID: 1746378686}
   - component: {fileID: 1746378685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25739,7 +25720,7 @@ GameObject:
   - component: {fileID: 1778215342}
   - component: {fileID: 1778215341}
   - component: {fileID: 1778215340}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25846,7 +25827,7 @@ GameObject:
   - component: {fileID: 1779055507}
   - component: {fileID: 1779055506}
   - component: {fileID: 1779055505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25953,7 +25934,7 @@ GameObject:
   - component: {fileID: 1787174837}
   - component: {fileID: 1787174836}
   - component: {fileID: 1787174835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26148,7 +26129,7 @@ GameObject:
   - component: {fileID: 1805202083}
   - component: {fileID: 1805202082}
   - component: {fileID: 1805202081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26255,7 +26236,7 @@ GameObject:
   - component: {fileID: 1810832310}
   - component: {fileID: 1810832309}
   - component: {fileID: 1810832308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26362,7 +26343,7 @@ GameObject:
   - component: {fileID: 1813282121}
   - component: {fileID: 1813282120}
   - component: {fileID: 1813282119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26658,7 +26639,7 @@ GameObject:
   - component: {fileID: 1832487420}
   - component: {fileID: 1832487419}
   - component: {fileID: 1832487418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27569,7 +27550,7 @@ GameObject:
   - component: {fileID: 1846170590}
   - component: {fileID: 1846170589}
   - component: {fileID: 1846170588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27691,7 +27672,7 @@ Transform:
   m_GameObject: {fileID: 1861090394}
   serializedVersion: 2
   m_LocalRotation: {x: 0.59795475, y: 0.041317582, z: -0.18958762, w: 0.7776886}
-  m_LocalPosition: {x: 14.047956, y: 0, z: -19.037113}
+  m_LocalPosition: {x: 15.547956, y: 0, z: -19.037113}
   m_LocalScale: {x: 1.0002037, y: 0.99980146, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27769,7 +27750,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -27794,7 +27775,7 @@ GameObject:
   - component: {fileID: 1873343558}
   - component: {fileID: 1873343557}
   - component: {fileID: 1873343556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27976,6 +27957,7 @@ MonoBehaviour:
   sphereCastRadius: 5
   sphereCastYOffset: -1
   sphereCastForwardOffset: 1
+  spawnPoint: {fileID: 0}
 --- !u!1 &1877694181
 GameObject:
   m_ObjectHideFlags: 0
@@ -28056,7 +28038,7 @@ GameObject:
   - component: {fileID: 1882584339}
   - component: {fileID: 1882584338}
   - component: {fileID: 1882584337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28151,6 +28133,94 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882584335}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1888934342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99042
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.13808776
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 15.874
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1 &1891777955
 GameObject:
   m_ObjectHideFlags: 0
@@ -28163,7 +28233,7 @@ GameObject:
   - component: {fileID: 1891777959}
   - component: {fileID: 1891777958}
   - component: {fileID: 1891777957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28270,7 +28340,7 @@ GameObject:
   - component: {fileID: 1898057235}
   - component: {fileID: 1898057234}
   - component: {fileID: 1898057233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28456,7 +28526,7 @@ GameObject:
   - component: {fileID: 1904932535}
   - component: {fileID: 1904932534}
   - component: {fileID: 1904932533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28563,7 +28633,7 @@ GameObject:
   - component: {fileID: 1911542096}
   - component: {fileID: 1911542095}
   - component: {fileID: 1911542094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28667,7 +28737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1923296663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28737,7 +28807,7 @@ GameObject:
   - component: {fileID: 1932571897}
   - component: {fileID: 1932571896}
   - component: {fileID: 1932571895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28844,7 +28914,7 @@ GameObject:
   - component: {fileID: 1937984062}
   - component: {fileID: 1937984061}
   - component: {fileID: 1937984060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29030,7 +29100,7 @@ GameObject:
   - component: {fileID: 1954899770}
   - component: {fileID: 1954899769}
   - component: {fileID: 1954899768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29137,7 +29207,7 @@ GameObject:
   - component: {fileID: 1957775878}
   - component: {fileID: 1957775877}
   - component: {fileID: 1957775876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29445,7 +29515,7 @@ GameObject:
   - component: {fileID: 1985357724}
   - component: {fileID: 1985357723}
   - component: {fileID: 1985357722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29631,7 +29701,7 @@ GameObject:
   - component: {fileID: 1991450670}
   - component: {fileID: 1991450669}
   - component: {fileID: 1991450668}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29738,7 +29808,7 @@ GameObject:
   - component: {fileID: 2007116528}
   - component: {fileID: 2007116527}
   - component: {fileID: 2007116526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29845,7 +29915,7 @@ GameObject:
   - component: {fileID: 2025362613}
   - component: {fileID: 2025362612}
   - component: {fileID: 2025362611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29940,6 +30010,94 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025362609}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2032182781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Name
+      value: Table (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d1d16c92053a1f44ebca4c0d4f0c4031,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1d16c92053a1f44ebca4c0d4f0c4031, type: 3}
 --- !u!1 &2032406330
 GameObject:
   m_ObjectHideFlags: 0
@@ -29952,7 +30110,7 @@ GameObject:
   - component: {fileID: 2032406334}
   - component: {fileID: 2032406333}
   - component: {fileID: 2032406332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30164,7 +30322,7 @@ GameObject:
   - component: {fileID: 2034476823}
   - component: {fileID: 2034476822}
   - component: {fileID: 2034476821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30271,7 +30429,7 @@ GameObject:
   - component: {fileID: 2037552828}
   - component: {fileID: 2037552827}
   - component: {fileID: 2037552826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30378,7 +30536,7 @@ GameObject:
   - component: {fileID: 2037901475}
   - component: {fileID: 2037901474}
   - component: {fileID: 2037901473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30485,7 +30643,7 @@ GameObject:
   - component: {fileID: 2038058094}
   - component: {fileID: 2038058093}
   - component: {fileID: 2038058092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30592,7 +30750,7 @@ GameObject:
   - component: {fileID: 2050876680}
   - component: {fileID: 2050876679}
   - component: {fileID: 2050876678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30699,7 +30857,7 @@ GameObject:
   - component: {fileID: 2055703825}
   - component: {fileID: 2055703824}
   - component: {fileID: 2055703823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30991,7 +31149,7 @@ GameObject:
   - component: {fileID: 2065090110}
   - component: {fileID: 2065090109}
   - component: {fileID: 2065090108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31174,7 +31332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2069433335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Table (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31212,7 +31370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2069799106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectators
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31242,6 +31400,124 @@ Transform:
   - {fileID: 1365110343}
   m_Father: {fileID: 1634468106}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2099072086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099072087}
+  - component: {fileID: 2099072089}
+  - component: {fileID: 2099072088}
+  m_Layer: 0
+  m_Name: Spot Light (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099072087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099072086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.61176056, y: -0.35461107, z: -0.08512107, w: 0.7019647}
+  m_LocalPosition: {x: -1.08, y: 0.010000229, z: 8.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153233918}
+  m_LocalEulerAnglesHint: {x: 52.987, y: -90, z: -66.815}
+--- !u!114 &2099072088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099072086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &2099072089
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099072086}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 45.71
+  m_Range: 300
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &2106456944
 GameObject:
   m_ObjectHideFlags: 0
@@ -31254,7 +31530,7 @@ GameObject:
   - component: {fileID: 2106456948}
   - component: {fileID: 2106456947}
   - component: {fileID: 2106456946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31361,7 +31637,7 @@ GameObject:
   - component: {fileID: 2108888881}
   - component: {fileID: 2108888880}
   - component: {fileID: 2108888879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31468,7 +31744,7 @@ GameObject:
   - component: {fileID: 2125360670}
   - component: {fileID: 2125360669}
   - component: {fileID: 2125360668}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31575,7 +31851,7 @@ GameObject:
   - component: {fileID: 2138435794}
   - component: {fileID: 2138435793}
   - component: {fileID: 2138435792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spectater (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31951,4 +32227,10 @@ SceneRoots:
   - {fileID: 1658847340}
   - {fileID: 153233918}
   - {fileID: 906622822}
-  - {fileID: 956982454}
+  - {fileID: 351229916}
+  - {fileID: 1642335667}
+  - {fileID: 488066209}
+  - {fileID: 1402355181}
+  - {fileID: 1888934342}
+  - {fileID: 2032182781}
+  - {fileID: 837809178}
