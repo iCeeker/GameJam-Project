@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8346233952498652381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3771364885710201303}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3771364885710201303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8346233952498652381}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.030621259, z: -0, w: 0.9995311}
+  m_LocalPosition: {x: 0.12799662, y: 0.83639073, z: 2.0870554}
+  m_LocalScale: {x: 1.1302577, y: 1.1302577, z: 1.1302577}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 140567498617620901}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466646033400393294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83,18 +114,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: UnSalatAni
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grabable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: acfa3a79f1680b34d8b4f4e65a20777c,
+        type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 3771364885710201303}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4366269774794658739}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7527344689497654380}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
         type: 3}
       insertIndex: -1
@@ -120,6 +156,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6326222025142050542}
   m_SourcePrefab: {fileID: 100100000, guid: acfa3a79f1680b34d8b4f4e65a20777c, type: 3}
+--- !u!4 &140567498617620901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: acfa3a79f1680b34d8b4f4e65a20777c,
+    type: 3}
+  m_PrefabInstance: {fileID: 466646033400393294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &772567214017598239 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
@@ -147,29 +189,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!136 &7527344689497654380
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772567214017598239}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.48
-  m_Height: 1.5
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.74, z: 0}
 --- !u!135 &4926335089770326871
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -255,7 +274,7 @@ MonoBehaviour:
   runAwayDistance: 3
   grabDistance: 1
   carryHeight: 2
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 8346233952498652381}
   timeUntilRage: 10
   playerTag: Player
   grabbableTag: Grabable

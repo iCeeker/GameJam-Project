@@ -6,6 +6,7 @@ using UnityEngine;
 public class AsssemblingStation : Station
 {
     public GameObject[] TestIndicators;
+    public ParticleSystem smokePuff;
 
     List<FoodTypes> currentPlatter { get; set; }
 

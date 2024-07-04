@@ -9,6 +9,7 @@ public class PlayerInteractionController : MonoBehaviour
     [SerializeField] float sphereCastYOffset = -1;
     [SerializeField] float sphereCastForwardOffset = 1;
     [SerializeField] GameObject spawnPoint;
+    [SerializeField] Animator animator;
 
     Grabbable grabbedObject;
     Vector3 sphereCastOrigin;
@@ -25,6 +26,7 @@ public class PlayerInteractionController : MonoBehaviour
 
     void Update()
     {
+        animator.SetBool("isHolding", grabbedObject != null);
         if (Input.GetKeyDown(InteractionKey))
         {
             RaycastHit[] hits = Physics.SphereCastAll(sphereCastOrigin, sphereCastRadius, transform.forward, sphereCastForwardOffset);

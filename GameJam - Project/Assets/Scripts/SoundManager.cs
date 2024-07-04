@@ -44,6 +44,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySound(AudioClip Sound)
     {
+        audiosource = sourceAudio.GetComponent<AudioSource>();
         audiosource.PlayOneShot(Sound);
     }
 

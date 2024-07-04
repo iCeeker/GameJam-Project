@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject endscreen;
     [SerializeField] int numberForFullyStackedStation = 4;
     [SerializeField] float gameTime = 240;
+    [SerializeField] AudioClip endsound;
 
     public int Player1Points;
     public int Player2Points;
@@ -45,6 +46,8 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             endscreen.SetActive(true);
+            SoundManager soundManager = GameObject.Find("AudioManger 1").GetComponent<SoundManager>();
+            soundManager.PlaySound(endsound);
             player1PointsEnd.text = Player1Points.ToString();
             player2PointsEnd.text = Player2Points.ToString();
             if (Player1Points == Player2Points)
@@ -63,6 +66,7 @@ public class GameManager : MonoBehaviour
         int summedUpPoints = 0;
         foreach (AsssemblingStation station in stations)
         {
+            station.smokePuff.Play();
             int activeIndicators = station.TestIndicators.Where(a => a.activeInHierarchy).Count();
             int stationPoints = activeIndicators * 10;
             if (activeIndicators == numberForFullyStackedStation)

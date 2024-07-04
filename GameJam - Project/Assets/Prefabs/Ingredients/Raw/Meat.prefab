@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FoodType: 3
   FoodTier: 0
-  npcPrefab: {fileID: 9059586400395657332, guid: 8a3c1fb7081760947af94fe3bc444485,
+  npcPrefab: {fileID: 3448454362801736785, guid: 8b8d8e4d30eeb044a846f0897b83548c,
     type: 3}
   timeUntilExpiration: 10
 --- !u!114 &-198647600948284556

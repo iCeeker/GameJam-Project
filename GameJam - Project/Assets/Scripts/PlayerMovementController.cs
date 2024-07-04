@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerMovementController : MonoBehaviour
 {
     [SerializeField] float RotationSpeed;
     [SerializeField] float Speed;
-
+    [SerializeField] Animator animator;
+    [SerializeField] AudioClip stepsound;
+    [SerializeField] GameObject stepPartikle;
 
     void Update()
     {
@@ -13,6 +16,18 @@ public class PlayerMovementController : MonoBehaviour
 
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
 
+        if (horizontalInput + verticalInput != 0)
+        {
+            animator.SetBool("isRunning", true);
+            SoundManager soundManager = GameObject.Find("AudioManger 1").GetComponent<SoundManager>();
+            soundManager.PlaySound(stepsound);
+            stepPartikle.SetActive(true);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
+            stepPartikle.SetActive(false);
+        }
 
         if (direction != Vector3.zero)
         {
