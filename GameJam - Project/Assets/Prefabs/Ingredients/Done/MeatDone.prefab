@@ -68,8 +68,114 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeatDone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Grabable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3455352994888194358}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1226572766071941620}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3366061684045918540}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7510875050645387259}
   m_SourcePrefab: {fileID: 100100000, guid: cd5b5db1baf585144bbdc498da617ec2, type: 3}
+--- !u!1 &5317675875651393038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4975712161634495327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3455352994888194358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317675875651393038}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3750002, y: 1.5837631, z: 1.3750002}
+  m_Center: {x: 0, y: 20.490442, z: 0}
+--- !u!54 &1226572766071941620
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317675875651393038}
+  serializedVersion: 4
+  m_Mass: 3
+  m_Drag: 2
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3366061684045918540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317675875651393038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2bcba957e627c4da315e0a4769a539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FoodType: 3
+  FoodTier: 1
+  npcPrefab: {fileID: 9059586400395657332, guid: 8a3c1fb7081760947af94fe3bc444485,
+    type: 3}
+  timeUntilExpiration: 20
+--- !u!114 &7510875050645387259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317675875651393038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a21a03353a4c84a931beeba9bed05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bouncingStrength: 0
+  grabbed: 0
