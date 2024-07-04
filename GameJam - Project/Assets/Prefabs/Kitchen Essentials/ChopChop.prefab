@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9041808771755867779}
   - component: {fileID: 5392267502452207910}
   - component: {fileID: 7868309651821626860}
+  - component: {fileID: 6127761245455944242}
   m_Layer: 0
   m_Name: ChopChop
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8516629604255179833}
   serializedVersion: 2
   m_LocalRotation: {x: 6.123234e-17, y: 0.00000017881393, z: -6.1232376e-17, w: 1}
-  m_LocalPosition: {x: 7.8455606, y: 1, z: -1.9034507}
+  m_LocalPosition: {x: 0, y: 1, z: -1.9034507}
   m_LocalScale: {x: -0.56, y: -0.02413321, z: -0.4336327}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &6127761245455944242
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516629604255179833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 73e76a6fd5db203479ab948a81b09645, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
