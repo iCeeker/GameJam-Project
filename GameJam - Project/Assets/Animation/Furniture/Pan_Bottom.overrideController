@@ -7,5 +7,7 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pan_Bottom
-  m_Controller: {fileID: 0}
-  m_Clips: []
+  m_Controller: {fileID: 9100000, guid: 77b92a1f66e54b34b925070ccc56f113, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ec7e3defa399b93468c2b959f9b214b0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7b7d554c5bfc95c43aed0dfa3dfc0cef, type: 2}
