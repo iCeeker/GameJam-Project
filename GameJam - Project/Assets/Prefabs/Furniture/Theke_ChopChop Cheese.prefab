@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7146006625823789203}
   - component: {fileID: 3600448743146105439}
   - component: {fileID: 8148654900071077068}
+  - component: {fileID: 6098933005497490510}
   m_Layer: 0
   m_Name: Theke_ChopChop Cheese
-  m_TagString: Untagged
+  m_TagString: Receiver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,12 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7355044519660230081}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.70710737, z: -0, w: 0.7071063}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 45.57053, y: -0.011287941, z: -3.3251767}
   m_LocalScale: {x: 2, y: 2.620708, z: 1.6528}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 307582532302055861}
+  - {fileID: 8794476724971094485}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!33 &7146006625823789203
@@ -109,6 +111,54 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2, y: 1.3267703, z: 0.95037764}
   m_Center: {x: 0, y: 0.6676924, z: 0.022966236}
+--- !u!114 &6098933005497490510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355044519660230081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983f36a2a1bea9f44b8c2fabcf83c889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 8794476724971094485}
+  desiredFoodType: 2
+  processedFoodPrefab: {fileID: 2189472681675390726, guid: 599203dba67fa5940ae067c2ab90579d,
+    type: 3}
+  processingTime: 3
+--- !u!1 &8640789769547479594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8794476724971094485}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8794476724971094485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8640789769547479594}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.93, z: 1.075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5042142780982108606}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8736479163491178294
 PrefabInstance:
   m_ObjectHideFlags: 0

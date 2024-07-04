@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3118501153617182233}
   - component: {fileID: 4048667169489448710}
   - component: {fileID: 1243871123228304821}
+  - component: {fileID: 5208761007901379550}
   m_Layer: 0
   m_Name: Theke_Stove
-  m_TagString: Untagged
+  m_TagString: Receiver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,6 +33,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2.620708, z: 1.6527998}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8563050801478918473}
   - {fileID: 429867624240758031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
@@ -109,6 +111,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2, y: 1.3267703, z: 0.95037764}
   m_Center: {x: 0, y: 0.6676924, z: 0.022966236}
+--- !u!114 &5208761007901379550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521439922566357039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983f36a2a1bea9f44b8c2fabcf83c889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 8563050801478918473}
+  desiredFoodType: 3
+  processedFoodPrefab: {fileID: 5902389279244136326, guid: 8d72ea2f086b6f14fa3f009de2ebe907,
+    type: 3}
+  processingTime: 3
 --- !u!1 &1061973197970204597
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,3 +216,34 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8106427146569424583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8563050801478918473}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8563050801478918473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106427146569424583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.625, z: 1.272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6554665212156207581}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
