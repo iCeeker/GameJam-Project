@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             pauseMenu.SetActive(!pauseMenu.activeInHierarchy);
-            Time.timeScale = pauseMenu.activeInHierarchy ? 1.0f : 0.0f;
+            Time.timeScale = pauseMenu.activeInHierarchy ? 0f : 1f;
         }
         if (deadline <= Time.time)
         {
@@ -85,6 +85,12 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
+
+    public void UnPause()
+    {
+        Time.timeScale = 1;
+    }
+
 }
 
 public enum ArenaIndex

@@ -156,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2853958047916241026}
   desiredFoodType: 1
-  processedFoodPrefab: {fileID: 6852813171237454338, guid: 3478b4850e60e1e479f28ef9c9de09ce,
+  processedFoodPrefab: {fileID: 8245797790654665205, guid: 3478b4850e60e1e479f28ef9c9de09ce,
     type: 3}
   processingTime: 3
 --- !u!1001 &1000060975715034994
