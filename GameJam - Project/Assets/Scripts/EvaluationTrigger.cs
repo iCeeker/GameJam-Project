@@ -8,6 +8,6 @@ public class EvaluationTrigger : MonoBehaviour
 
     public void ToggleEvaluation()
     {
-        GameManager.Instacne.AddPoints(assemblingStations, arenaIndex);   
+        GameManager.Instance.AddPoints(assemblingStations, arenaIndex);   
     }
 }
