@@ -18,7 +18,7 @@ public class Food : MonoBehaviour
 
     void Update()
     {
-        if (expirationTime <= Time.time && npcStateManager == null)
+        if (expirationTime <= Time.time && npcStateManager == null && SpawnManager.Instance.CheckNPCCap(gameObject))
         {
             Instantiate(npcPrefab, transform.position, transform.rotation);
             Destroy(gameObject);

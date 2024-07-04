@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AsssemblingStation : Station
 {
-    [SerializeField] GameObject[] testIndicator;
+    public GameObject[] TestIndicators;
 
     List<FoodTypes> currentPlatter { get; set; }
 
@@ -18,7 +18,7 @@ public class AsssemblingStation : Station
     {
         int score = currentPlatter.Count;
         currentPlatter.Clear();
-        foreach (GameObject indicator in testIndicator)
+        foreach (GameObject indicator in TestIndicators)
         {
             indicator.SetActive(false);
         }
@@ -42,16 +42,16 @@ public class AsssemblingStation : Station
             switch (food.FoodType)
             {
                 case FoodTypes.salad:
-                    testIndicator[1].SetActive(true);
+                    TestIndicators[1].SetActive(true);
                     break;
                 case FoodTypes.beef:
-                    testIndicator[2].SetActive(true);
+                    TestIndicators[2].SetActive(true);
                     break;
                 case FoodTypes.bread:
-                    testIndicator[0].SetActive(true);
+                    TestIndicators[0].SetActive(true);
                     break;
                 case FoodTypes.cheese:
-                    testIndicator[3].SetActive(true);
+                    TestIndicators[3].SetActive(true);
                     break;
             }
         }

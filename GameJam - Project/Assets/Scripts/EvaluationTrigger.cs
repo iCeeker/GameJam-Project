@@ -1,17 +1,13 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EvaluationTrigger : MonoBehaviour
 {
     [SerializeField] AsssemblingStation[] assemblingStations;
+    [SerializeField] ArenaIndex arenaIndex;
 
     public void ToggleEvaluation()
     {
-        int summedUpScore = 0;
-        foreach (AsssemblingStation station in assemblingStations)
-        {
-            summedUpScore = station.ClearAndGetPoints();
-        }
-
-        // TODO: Evaluate via GameManager
+        GameManager.Instacne.AddPoints(assemblingStations, arenaIndex);   
     }
 }
