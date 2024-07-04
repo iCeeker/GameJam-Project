@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4975712161634495327
+--- !u!1001 &6712639533162599127
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,17 +11,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: cd5b5db1baf585144bbdc498da617ec2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.025
+      value: -18.534325
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd5b5db1baf585144bbdc498da617ec2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.092
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd5b5db1baf585144bbdc498da617ec2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -21.083097
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cd5b5db1baf585144bbdc498da617ec2,
         type: 3}
@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cd5b5db1baf585144bbdc498da617ec2,
         type: 3}
       propertyPath: m_Name
-      value: MeatDone
+      value: Meat_Done
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
