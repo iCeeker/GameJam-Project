@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Christophs Spielwiese.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Leveldesign Max.unity
     guid: f92ec716602957848b71a37ba2bcd16d
   - enabled: 1
@@ -22,5 +22,5 @@ EditorBuildSettings:
     guid: 41f421862c511234a8d613f3d2a248b4
   - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: a91bc683e8ad68741aeb39ced42c131a
+    guid: ea83893236a73554bb2581bfe984aa7c
   m_configObjects: {}

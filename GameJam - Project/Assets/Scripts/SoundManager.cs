@@ -52,7 +52,5 @@ public class SoundManager : MonoBehaviour
     {
         audiosource.PlayOneShot(Sound, duration);
     }
-
-
 }
 

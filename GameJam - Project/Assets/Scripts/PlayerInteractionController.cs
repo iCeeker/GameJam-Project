@@ -8,6 +8,7 @@ public class PlayerInteractionController : MonoBehaviour
     [SerializeField] float sphereCastRadius = 5;
     [SerializeField] float sphereCastYOffset = -1;
     [SerializeField] float sphereCastForwardOffset = 1;
+    [SerializeField] LayerMask sphereCastLayerMask;
     [SerializeField] GameObject spawnPoint;
     [SerializeField] Animator animator;
 
@@ -29,7 +30,7 @@ public class PlayerInteractionController : MonoBehaviour
         animator.SetBool("isHolding", grabbedObject != null);
         if (Input.GetKeyDown(InteractionKey))
         {
-            RaycastHit[] hits = Physics.SphereCastAll(sphereCastOrigin, sphereCastRadius, transform.forward, sphereCastForwardOffset);
+            RaycastHit[] hits = Physics.SphereCastAll(sphereCastOrigin, sphereCastRadius, transform.forward, sphereCastForwardOffset, sphereCastLayerMask);
             if (grabbedObject != null)
             {
                 hits = hits.Where(a => a.collider.gameObject != grabbedObject.gameObject).ToArray();

@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         deadline = Time.time + gameTime;
+        Time.timeScale = 1;
     }
 
     void Update()

@@ -7,26 +7,37 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] float Speed;
     [SerializeField] Animator animator;
     [SerializeField] AudioClip stepsound;
-    [SerializeField] GameObject stepPartikle;
+    [SerializeField] ParticleSystem stepParticle;
+    [SerializeField] string horizontalAxis;
+    [SerializeField] string verticalAxis;
+
+    SoundManager soundManager;
+
+    private void Start()
+    {
+        soundManager = GameObject.Find("AudioManger 1").GetComponent<SoundManager>();
+    }
 
     void Update()
     {
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis(verticalAxis);
+        float horizontalInput = Input.GetAxis(horizontalAxis);
 
         Vector3 direction = new Vector3(horizontalInput, 0, verticalInput);
 
         if (horizontalInput + verticalInput != 0)
         {
             animator.SetBool("isRunning", true);
-            SoundManager soundManager = GameObject.Find("AudioManger 1").GetComponent<SoundManager>();
-            soundManager.PlaySound(stepsound);
-            stepPartikle.SetActive(true);
+            //soundManager.PlaySound(stepsound);
+            if (!stepParticle.isPlaying)
+            {
+                stepParticle.Play();
+            }
         }
         else
         {
             animator.SetBool("isRunning", false);
-            stepPartikle.SetActive(false);
+            stepParticle.Stop();
         }
 
         if (direction != Vector3.zero)

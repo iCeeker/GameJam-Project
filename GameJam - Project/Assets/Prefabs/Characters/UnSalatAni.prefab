@@ -116,6 +116,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
         type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acfa3a79f1680b34d8b4f4e65a20777c,
+        type: 3}
       propertyPath: m_TagString
       value: Grabable
       objectReference: {fileID: 0}

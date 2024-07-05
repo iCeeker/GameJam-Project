@@ -30,7 +30,10 @@ public class Grabbable : MonoBehaviour
         transform.SetParent(parent, true);
         transform.localPosition = position;
         transform.rotation = transform.rotation;
-        rb.useGravity = false;
+        if (rb != null)
+        {
+            rb.useGravity = false;
+        }
         grabbed = true;
         initialHeight = transform.localPosition.y;
         grabber = parent;
@@ -46,7 +49,7 @@ public class Grabbable : MonoBehaviour
         //transform.parent = null;
         rb.AddRelativeForce(direction * bouncingStrength, ForceMode.Impulse);
         rb.useGravity = true;
-        grabbed = false;       
+        grabbed = false;
     }
 
     public void Place(Transform targetArea)

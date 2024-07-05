@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 9095260279459556472}
   - component: {fileID: -5606646028546916640}
   - component: {fileID: 5289484199882485745}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AssemblyV2
   m_TagString: Receiver
   m_Icon: {fileID: 0}

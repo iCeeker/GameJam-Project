@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3600448743146105439}
   - component: {fileID: 8148654900071077068}
   - component: {fileID: 6098933005497490510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Theke_ChopChop Cheese
   m_TagString: Receiver
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
   processedFoodPrefab: {fileID: 2189472681675390726, guid: 599203dba67fa5940ae067c2ab90579d,
     type: 3}
   processingTime: 3
-  particles: {fileID: 8136898348271397021}
+  particles: {fileID: 6390574215919929227}
 --- !u!1 &8640789769547479594
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ PrefabInstance:
     - target: {fileID: 5509096654664631076, guid: f32c1d7d4517b9b42b4a11e858a1f668,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7901833582411232334, guid: f32c1d7d4517b9b42b4a11e858a1f668,
         type: 3}
@@ -255,9 +255,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4366292442567797689}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8136898348271397021 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5509096654664631076, guid: f32c1d7d4517b9b42b4a11e858a1f668,
+--- !u!198 &6390574215919929227 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7221467799096683570, guid: f32c1d7d4517b9b42b4a11e858a1f668,
     type: 3}
   m_PrefabInstance: {fileID: 4366292442567797689}
   m_PrefabAsset: {fileID: 0}

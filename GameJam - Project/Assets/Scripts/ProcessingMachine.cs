@@ -5,7 +5,7 @@ public class ProcessingMachine : Station
     [SerializeField] FoodTypes desiredFoodType;
     [SerializeField] GameObject processedFoodPrefab;
     [SerializeField] float processingTime = 3;
-    [SerializeField] GameObject particles;
+    [SerializeField] ParticleSystem particles;
 
     bool isWorking;
     float finishedTime = float.MaxValue;
@@ -15,6 +15,7 @@ public class ProcessingMachine : Station
         if (finishedTime <= Time.time)
         {
             isWorking = false;
+            particles.Stop();
             Create(processedFoodPrefab, transform);
             finishedTime = float.MaxValue;
         }
@@ -23,7 +24,6 @@ public class ProcessingMachine : Station
     public override void Interact(GameObject objectForInteraction)
     {
         Food food = objectForInteraction.GetComponent<Food>();
-        particles.SetActive(isWorking);
         if (isWorking || food == null || food.FoodType != desiredFoodType || food.FoodTier != FoodTiers.raw)
         {
             Grabbable grabbable = objectForInteraction.GetComponent<Grabbable>();
@@ -33,6 +33,7 @@ public class ProcessingMachine : Station
         {
             Destroy(objectForInteraction);
             finishedTime = Time.time + processingTime;
+            particles.Play();            
             isWorking = true;
         }
     }

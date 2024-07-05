@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4048667169489448710}
   - component: {fileID: 1243871123228304821}
   - component: {fileID: 5208761007901379550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Theke_Stove
   m_TagString: Receiver
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
   processedFoodPrefab: {fileID: 5902389279244136326, guid: 8d72ea2f086b6f14fa3f009de2ebe907,
     type: 3}
   processingTime: 3
-  particles: {fileID: 3881893874970775065}
+  particles: {fileID: 2133775359104360719}
 --- !u!1 &1061973197970204597
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 5509096654664631076, guid: f32c1d7d4517b9b42b4a11e858a1f668,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7901833582411232334, guid: f32c1d7d4517b9b42b4a11e858a1f668,
         type: 3}
@@ -343,9 +343,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8767241637646683453}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3881893874970775065 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5509096654664631076, guid: f32c1d7d4517b9b42b4a11e858a1f668,
+--- !u!198 &2133775359104360719 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7221467799096683570, guid: f32c1d7d4517b9b42b4a11e858a1f668,
     type: 3}
   m_PrefabInstance: {fileID: 8767241637646683453}
   m_PrefabAsset: {fileID: 0}
