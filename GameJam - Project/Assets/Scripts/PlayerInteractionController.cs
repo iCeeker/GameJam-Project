@@ -19,14 +19,10 @@ public class PlayerInteractionController : MonoBehaviour
     string grabbableTag = "Grabable";
     string receiverTag = "Receiver";
 
-    void Start()
+    void Update()
     {
         sphereCastOrigin = transform.position;
         sphereCastOrigin.y += sphereCastYOffset;
-    }
-
-    void Update()
-    {
         animator.SetBool("isHolding", grabbedObject != null);
         if (Input.GetKeyDown(InteractionKey))
         {
